@@ -29,6 +29,7 @@ class MeetupReceiver extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
       // Connect to host:port
       val socket = new Socket(host, port)
 
+      // Necessary headers
       val headers = """GET /2/open_events HTTP/1.1
                       |Host: stream.meetup.com
                       |Connection: keep-alive
