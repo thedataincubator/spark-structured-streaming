@@ -1,4 +1,4 @@
-package io.basilic.myproject
+package com.thedataincubator.MeetupStreaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{StreamingContext, Seconds}

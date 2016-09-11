@@ -1,4 +1,4 @@
-package io.basilic.myproject
+package com.thedataincubator.MeetupStreaming
 
 import net.liftweb.json.{parse, DefaultFormats}
 import org.apache.spark.streaming.StreamingContext

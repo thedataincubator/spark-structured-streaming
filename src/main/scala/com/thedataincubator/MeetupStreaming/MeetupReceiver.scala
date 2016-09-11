@@ -1,4 +1,4 @@
-package io.basilic.myproject
+package com.thedataincubator.MeetupStreaming
 
 import java.io.{PrintWriter, BufferedReader, BufferedWriter, OutputStreamWriter, InputStreamReader}
 import java.net.Socket
