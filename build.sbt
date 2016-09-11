@@ -18,3 +18,7 @@ libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.0.0" % "prov
 libraryDependencies += "net.liftweb" %% "lift-json" % "2.6.2" 
 
 libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
+
+// ignore scala scripts in notebooks
+
+excludeFilter in unmanagedSources := HiddenFileFilter || "notebooks/*"
