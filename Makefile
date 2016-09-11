@@ -9,3 +9,8 @@ run: assembly
 
 notebook:
 	cd notebooks && jupyter notebook
+
+ensime:
+	# for Sublime Ensime
+	# checkout http://ensime.github.io/build_tools/sbt/
+	sbt ensimeConfig
