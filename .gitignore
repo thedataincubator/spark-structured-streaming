@@ -6,3 +6,4 @@ project/target
 metastore_db
 .ensime_cache
 .ensime
+notebooks/.ipynb_checkpoints
