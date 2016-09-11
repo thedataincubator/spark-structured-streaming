@@ -1,4 +1,4 @@
-name := "spark-project-template"
+name := "MeetupStreaming"
 
 version := "1.0"
 
