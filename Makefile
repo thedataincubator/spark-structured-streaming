@@ -16,4 +16,4 @@ ensime:
 	sbt ensimeConfig
 
 spark-shell:
-	cd notebooks && spark-shell
+	cd notebooks && spark-shell --conf "spark.ui.port=5050"
