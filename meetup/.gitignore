@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+target
+project/target
+*.log
+metastore_db
+.ensime_cache
+.ensime
