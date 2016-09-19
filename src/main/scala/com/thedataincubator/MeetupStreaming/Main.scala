@@ -6,7 +6,7 @@ import org.apache.spark.streaming.{StreamingContext, Seconds}
 object Main {
 
   def main(args: Array[String]) {
-    val conf = new SparkConf().setAppName("SparkProjectTemplate")
+    val conf = new SparkConf().setAppName("MeetupStreaming")
     val ssc = new StreamingContext(conf, Seconds(1))
     val meetupStream = MeetupDStream(ssc)
     meetupStream.saveAsTextFiles("output/output", "part")
