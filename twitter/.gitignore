@@ -1,0 +1,8 @@
+*~
+.ensime
+.ensime_cache/*
+project/target/*
+project/project/*
+target/*
+*twitter4j.properties
+output/*
