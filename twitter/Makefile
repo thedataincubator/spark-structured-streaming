@@ -24,3 +24,6 @@ ensime:
 
 spark-shell:
 	cd notebooks && spark-shell --conf "spark.ui.port=5050"
+
+clean:
+	rm -Rf output/*
