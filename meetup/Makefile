@@ -18,3 +18,6 @@ ensime:
 	# for Sublime Ensime
 	# checkout http://ensime.github.io/build_tools/sbt/
 	sbt ensimeConfig
+
+clean:
+	rm -Rf output/*
