@@ -15,8 +15,8 @@ object Main {
         // Disable logging to make messages more clear
         Logger.getLogger("org").setLevel(Level.OFF)
         Logger.getLogger("akka").setLevel(Level.OFF)
-        twitterDStream.print
-      case Array(output) => twitterDStream.saveAsTextFiles(s"output/$output", "txt")
+        meetupStream.print
+      case Array(output) => meetupStream.saveAsTextFiles(s"output/$output", "txt")
       case _ => throw new IllegalArgumentException("Expecting at most one argument");
     }
     ssc.start()
