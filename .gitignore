@@ -1,5 +1,7 @@
 .DS_Store
 notebooks/.ipynb_checkpoints
+notebooks/_checkpoints
 */metastore_db/*
 *derby.log
 *~
+play/*
