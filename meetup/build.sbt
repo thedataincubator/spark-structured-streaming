@@ -12,11 +12,5 @@ net.virtualvoid.sbt.graph.Plugin.graphSettings
 libraryDependencies += "org.apache.spark" %% "spark-core" % "2.0.0" % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.0.0" % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.0.0" % "provided"
-
 libraryDependencies += "net.liftweb" %% "lift-json" % "2.6.2" 
 
-libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
-
-// ignore scala scripts in notebooks
-
-excludeFilter in unmanagedSources := HiddenFileFilter || "notebooks/*"

@@ -30,7 +30,7 @@ class MeetupReceiver extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
       val socket = new Socket(host, port)
 
       // Necessary headers
-      val headers = """GET /2/open_events HTTP/1.1
+      val headers = """GET /2/rsvps HTTP/1.1
                       |Host: stream.meetup.com
                       |Connection: keep-alive
                       |""".stripMargin
