@@ -24,4 +24,16 @@ Otherwise, you can copy and paste the cells into a spark shell, which you can st
 spark-shell
 ```
 
+## Starting the Course
+To start the course, run
+```bash
+make notebook
+```
+and open the [Overview.ipynb](http://localhost:9000/notebooks/Overview.ipynb) notebook.
+
+If you want to play with Spark directly, you can also run
+```bash
+make spark-shell
+```
+
 **Credits:** The spark project template is based on https://github.com/nfo/spark-project-template
