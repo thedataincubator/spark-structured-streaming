@@ -5,3 +5,4 @@ notebooks/_checkpoints
 *derby.log
 *~
 play/*
+tools/*
