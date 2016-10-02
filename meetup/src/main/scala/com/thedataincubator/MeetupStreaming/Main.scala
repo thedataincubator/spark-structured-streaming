@@ -5,7 +5,6 @@ import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{StreamingContext, Seconds}
 
 object Main {
-
   def main(args: Array[String]) {
     val conf = new SparkConf().setAppName("MeetupStreaming")
     val ssc = new StreamingContext(conf, Seconds(1))
