@@ -6,7 +6,7 @@ A short course on the new, experimental features by [The Data Incubator](https:/
 
 To run this tutorial, you need Apache Spark and Jupyter.  You can install them:
 
-1. Download and install Apache Spark 2.0.0 by following the [instructions here](http://spark.apache.org/docs/latest/).
+1. Download and install Apache Spark 2.0.0 by following the [instructions here](http://spark.apache.org/docs/latest/).  You may first have to [install Hadoop](https://hadoop.apache.org/docs/r2.7.2/hadoop-project-dist/hadoop-common/SingleCluster.html).
 2. Install Jupyter
 ```bash
 pip install jupyter
