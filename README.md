@@ -21,7 +21,7 @@ jupyter toree install --spark_opts='--master=local[2] --executor-memory 4g --dri
 
 Otherwise, you can copy and paste the cells into a spark shell, which you can start by running
 ```bash
-spark-shell
+make spark-shell
 ```
 
 ## Starting the Course
@@ -30,6 +30,7 @@ To start the course, run
 make notebook
 ```
 and open the [Overview.ipynb](http://localhost:9000/notebooks/Overview.ipynb) notebook.
+Note that you may be at a higher port number if 9000 is already in use.
 
 If you want to play with Spark directly, you can also run
 ```bash
