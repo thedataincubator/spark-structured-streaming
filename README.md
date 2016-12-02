@@ -1,6 +1,6 @@
 # Spark Structured Streaming
 
-A short course on the new, experimental features by [The Data Incubator](https://www.thedataincubator.com/) and [O'Reilly Strata](http://conferences.oreilly.com/strata).
+A short course on the new, experimental features by [The Data Incubator](https://www.thedataincubator.com/) and [O'Reilly Strata](http://conferences.oreilly.com/strata).  You can purchase the accompanying videos here [on the O'Reilly website](http://shop.oreilly.com/product/0636920057482.do).
 
 ## Installation
 
